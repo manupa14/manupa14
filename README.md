@@ -20,7 +20,7 @@ These systems are now fundamental to Invisible’s AI-driven process automation 
 
 ### 🧠 Melanoma Detection – Deep Learning Thesis
 
-**🎓 GitHub: [MelanomaDetection](https://github.com/your-username/MelanomaDetection)** *(Please replace `your-username` with your actual GitHub username)*
+**🎓 GitHub: [MelanomaDetection](https://github.com/manupa14/MelanomaDetection)** 
 
 This project is an end-to-end CNN-based melanoma classifier, which was developed as my final thesis for my Information Systems Engineering degree. The classifier is trained on dermoscopic imagery and leverages ResNet-like convolutional blocks and metadata-aware preprocessing.
 
@@ -31,7 +31,7 @@ This project is an end-to-end CNN-based melanoma classifier, which was developed
 
 ### 💳 AutoPaymentApp – Python Web Automation
 
-**🛠️ GitHub: [AutoPaymentApp](https://github.com/your-username/AutoPaymentApp)** *(Please replace `your-username` with your actual GitHub username)*
+**🛠️ GitHub: [AutoPaymentApp](https://github.com/manupa14/AutoPaymentApp)** 
 
 This is a lightweight automation tool built with Python and Selenium, designed to handle repetitive payment workflows.
 
