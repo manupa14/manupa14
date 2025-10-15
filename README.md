@@ -1,42 +1,45 @@
-# 🔍 Featured Projects – Manuel Pagliaruzza
+# 🔍 Manuel Pagliaruzza – Featured Projects
 
-Welcome to a curated snapshot of my most impactful technical work, spanning production code contributions, applied machine learning, and workflow automation.
-
----
-
-## 🏢 Invisible Technologies – Production Contributions
-
-I actively contribute Python code to Invisible’s internal automation infrastructure. This includes:
-
-- ⚙️ **LLM Prompt Vetting Automation**  
-  Developed a production-grade Python module that auto-accepts or rejects prompts based on **vector similarity analysis** using a local embedding model and vector database (approximate k-NN).  
-  Purpose: auto-filter malformed prompts before reaching human QA or LLM evaluation.
-
-- 🔁 **Workflow Step Execution System**  
-  Merged PRs into Invisible’s public `cem-step-execution` repo, part of the company’s orchestration framework for process automation.  
-  Focus: modular Python automation blocks for step-level logic and execution chains.  
-  🔗 [PRs I authored](https://github.com/invisible-tech/cem-step-execution/pulls?q=is%3Apr+author%3Amanupa14)
-
+Welcome to a curated snapshot of my most impactful technical work, spanning applied AI, workflow automation, and production-grade engineering.
 
 ---
 
-## 🧠 Melanoma Detection – Deep Learning Thesis  
-🎓 [GitHub: MelanomaDetection](https://github.com/manupa14/MelanomaDetection)
+### 🏢 Invisible Technologies – Applied AI & Workflow Automation
 
-An end-to-end CNN-based melanoma classifier trained on dermoscopic images, using **ResNet-style architecture** and **age-aware preprocessing**.  
-- Combines image and metadata inputs to improve detection precision.  
-- Final project for my degree in Information Systems Engineering.
+A significant portion of my recent work has been dedicated to enhancing Invisible Technologies' internal agentic automation engine. In this role, I design, implement, and refine production workflows that merge LLM reasoning, structured task orchestration, and data-driven automation.
 
----
+Due to confidentiality agreements, the source code and architectural details of these projects are private. However, my key contributions include:
 
-## 💳 AutoPaymentApp – Python Web Automation  
-🛠 [GitHub: AutoPaymentApp](https://github.com/manupa14/AutoPaymentApp)
+*   **Agentic Workflow Design:** I construct scalable, YAML-defined automations that incorporate reasoning steps, validation layers, and execution delegates.
+*   **Prompt Vetting & Embedding Pipelines:** I have developed Python-based systems to pre-screen LLM inputs, utilizing vector similarity and local embedding searches for robust quality control.
+*   **Execution Orchestration:** I am a contributor to the company's modular step execution system, which includes open-source components like `cem-step-execution`.
 
-A lightweight Python + Selenium automation for handling repetitive payment form submissions from spreadsheets.  
-- Integrates file parsing, state validation, and browser automation with fallback handling.  
-- Built originally for an Invisible internal need; later open-sourced.
+These systems are now fundamental to Invisible’s AI-driven process automation platform, serving a diverse range of client verticals.
 
 ---
 
-💡 Always open to collaborations and new roles in automation, data engineering, or product-facing technical work.
+### 🧠 Melanoma Detection – Deep Learning Thesis
 
+**🎓 GitHub: [MelanomaDetection](https://github.com/your-username/MelanomaDetection)** *(Please replace `your-username` with your actual GitHub username)*
+
+This project is an end-to-end CNN-based melanoma classifier, which was developed as my final thesis for my Information Systems Engineering degree. The classifier is trained on dermoscopic imagery and leverages ResNet-like convolutional blocks and metadata-aware preprocessing.
+
+*   Combines image analysis with patient metadata to improve diagnostic precision.
+*   Demonstrates a practical application of deep learning in the medical field.
+
+---
+
+### 💳 AutoPaymentApp – Python Web Automation
+
+**🛠️ GitHub: [AutoPaymentApp](https://github.com/your-username/AutoPaymentApp)** *(Please replace `your-username` with your actual GitHub username)*
+
+This is a lightweight automation tool built with Python and Selenium, designed to handle repetitive payment workflows.
+
+*   Features spreadsheet parsing, state validation, and robust error handling within the browser automation.
+*   Originally developed for internal use at Invisible Technologies and was later generalized and open-sourced.
+
+---
+
+### 💡 About Me
+
+I’m passionate about applied AI, workflow automation, and building intelligent systems that effectively bridge the gap between reasoning and execution. I am always open to new collaborations, experiments, and tackling interesting problems.
