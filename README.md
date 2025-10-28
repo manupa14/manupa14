@@ -6,6 +6,42 @@ Welcome to a curated snapshot of my most impactful technical work, spanning appl
 
 ---
 
+## 🏢 Invisible Technologies – Applied AI & Workflow Automation
+
+A significant portion of my recent work has been dedicated to enhancing Invisible Technologies’ internal agentic automation engine. In this role, I design, implement, and refine production workflows that merge LLM reasoning, structured task orchestration, and data-driven automation.
+
+Due to confidentiality agreements, the source code and architectural details of these projects are private. However, my key contributions include:
+
+* **Agentic Workflow Design:** scalable, YAML-defined automations with reasoning steps, validation layers, and execution delegates.
+* **Prompt Vetting & Embedding Pipelines:** Python systems to pre-screen LLM inputs via vector similarity and local embedding searches.
+* **Execution Orchestration:** contributions to the modular step execution system (including open-source components like `cem-step-execution`).
+
+These systems are now fundamental to Invisible’s AI-driven process automation platform across multiple client verticals.
+
+---
+
+## 🧠 Melanoma Detection – Deep Learning Thesis
+
+**GitHub:** [MelanomaDetection](https://github.com/manupa14/MelanomaDetection)
+
+End-to-end CNN melanoma classifier trained on dermoscopic imagery; leverages ResNet-style blocks and metadata-aware preprocessing.
+
+* Combines image analysis with patient metadata to improve diagnostic precision.
+* Demonstrates practical deep-learning application in a medical setting.
+
+---
+
+## 💳 AutoPaymentApp – Python Web Automation
+
+**GitHub:** [AutoPaymentApp](https://github.com/manupa14/AutoPaymentApp)
+
+Lightweight automation tool (Python + Selenium) for repetitive payment workflows.
+
+* Spreadsheet parsing, state validation, robust browser automation & error handling.
+* Originally built for internal use at Invisible Technologies; later generalized and open-sourced.
+
+---
+
 ## 📚 RAG — *Crime & Punishment* (Pinecone + Ollama + Gmail)
 
 **Repo:** [RAG-Pinecone-Langchain-GmailAPI](https://github.com/manupa14/RAG-Pinecone-Langchain-GmailAPI)
@@ -52,48 +88,6 @@ python ask_and_email.py "Why did Raskolnikov visit Sonya?" you@example.com
 * `ingest.py` (or similar) to chunk + embed + persist to Chroma.
 * `ask.py` (or similar) to retrieve top-k and answer with `qwen2:7b`.
   *See that repo’s README for the exact commands.*
-
----
-
-## 🏢 Invisible Technologies – Applied AI & Workflow Automation
-
-A significant portion of my recent work has been dedicated to enhancing Invisible Technologies’ internal agentic automation engine. In this role, I design, implement, and refine production workflows that merge LLM reasoning, structured task orchestration, and data-driven automation.
-
-Due to confidentiality agreements, the source code and architectural details of these projects are private. However, my key contributions include:
-
-* **Agentic Workflow Design:** scalable, YAML-defined automations with reasoning steps, validation layers, and execution delegates.
-* **Prompt Vetting & Embedding Pipelines:** Python systems to pre-screen LLM inputs via vector similarity and local embedding searches.
-* **Execution Orchestration:** contributions to the modular step execution system (including open-source components like `cem-step-execution`).
-
-These systems are now fundamental to Invisible’s AI-driven process automation platform across multiple client verticals.
-
----
-
-## 🧠 Melanoma Detection – Deep Learning Thesis
-
-**GitHub:** [MelanomaDetection](https://github.com/manupa14/MelanomaDetection)
-
-End-to-end CNN melanoma classifier trained on dermoscopic imagery; leverages ResNet-style blocks and metadata-aware preprocessing.
-
-* Combines image analysis with patient metadata to improve diagnostic precision.
-* Demonstrates practical deep-learning application in a medical setting.
-
----
-
-## 💳 AutoPaymentApp – Python Web Automation
-
-**GitHub:** [AutoPaymentApp](https://github.com/manupa14/AutoPaymentApp)
-
-Lightweight automation tool (Python + Selenium) for repetitive payment workflows.
-
-* Spreadsheet parsing, state validation, robust browser automation & error handling.
-* Originally built for internal use at Invisible Technologies; later generalized and open-sourced.
-
----
-
-## 🔧 Tech I use a lot
-
-LangChain • Ollama • Pinecone • Chroma • FastAPI • Postgres/pgvector • Redis • Python • YAML workflows • CI/CD • Prompt/embedding evals
 
 ---
 
